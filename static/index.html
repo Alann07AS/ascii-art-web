@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="../static/style.css" type="text/css" media="screen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{.Title}}</title>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+</head>
+<body>
+  <div id="main">
+    <h2 id="title">ASCII ART WEB</h2>
+    <h5 id="readme"><a href="/static/README.html">README</a></h5>
+		<form method="POST" action="/">     
+      <label> Select a Police :</label>
+      <select name="police">
+        <option {{.SSt}} value="standard" >standard</option>
+        <option {{.SSh}} value="shadow" >shadow</option>
+        <option {{.STh}} value="thinkertoy" >thinkertoy</option>
+      </select>
+			<input id="button" type="submit" value="Submit" />
+			<textarea name="inputArea" placeholder="Type your text here.">{{.Txt}}</textarea>
+		</form>
+	</div>
+</div>
+<div class="result"> 
+  <pre>{{.ResultAscii}}</pre>
+</div>
+</body>
+</html>

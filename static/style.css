@@ -1,0 +1,101 @@
+
+html {
+    background-color: rgb(199, 220, 198);
+    overflow: hidden;
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+pre {
+    font-weight: bold;
+    overflow:scroll;
+    border-radius: 40px;
+    height: 99%;
+    width: 99%;
+    top:     0.5%;
+    bottom:  0.5%;
+    left:    0.5%;
+    right:   0.5%;
+    margin: 5px;
+    position: relative;
+}
+
+form {
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 97%;
+    border-radius: 5px;
+    background-color: #ffffff2b;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70%;
+    font-size: 24px;
+}
+
+#button {
+    width: 10%;
+}
+
+.theForm {
+
+    /* margin: 30px; */
+    height: 100%;
+    width: 10%;
+    
+}
+
+.result {
+    border: solid;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    width: 94%;
+    height: 60%;
+    /* margin-left: 4vw;
+    margin-right: 4vw; */
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+}
+
+title {
+    font-family: 'Press Start 2P', serif;
+    text-align: center;
+    /* height: 5%; */
+    margin: 0%;
+}
+
+#title {
+    font-family: 'Press Start 2P', serif;
+    text-align: center;
+    /* height: 5%; */
+    margin: 0%;
+}
+
+#readme {
+    font-family: 'Press Start 2P', serif;
+    text-align: right;
+    /* height: 5%; */
+    margin: 0%;
+}
+
+p{
+    resize: none;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
